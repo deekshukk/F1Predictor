@@ -34,12 +34,9 @@ def collect_multiple_races(year, races):
     print(f"Saved combined race data to {save_path}")
 
 if __name__ == "__main__":
-    races_2024 = [
-        'Bahrain', 'Saudi Arabia', 'Australia', 'Azerbaijan',
-        'Miami', 'Monaco', 'Spain', 'Canada', 'Austria',
-        'Britain', 'Hungary', 'Belgium', 'Netherlands', 'Italy',
-        'Singapore', 'Japan', 'Qatar', 'United States', 'Mexico',
-        'Brazil', 'Las Vegas', 'Abu Dhabi'
-    ]
-
-    collect_multiple_races(2024, races_2024)
+    races_2025 = [
+    'Bahrain', 'Saudi Arabia', 'Australia', 'Azerbaijan',
+    'Miami', 'Monaco', 'Spain', 'Canada', 'Austria',
+    'Britain', 'Hungary', 'Belgium'
+    ]  
+    collect_multiple_races(2025, races_2025)
